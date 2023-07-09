@@ -1,3 +1,4 @@
+import 'package:fizz_buzz_fluttrer/fizzbuzz.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,6 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  final fizzbuzz = FizzBuzz();
 
   void _incrementCounter() {
     setState(() {
@@ -52,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$_counter',
+              fizzbuzz.convert(_counter),
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
