@@ -1,5 +1,7 @@
 # fizz_buzz_fluttrer
 
+<img src="./doc/image/readme.png">
+
 A new Flutter project.
 
 ## Getting Started
