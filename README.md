@@ -1,18 +1,23 @@
 # fizz_buzz_fluttrer
 
+FizzBuzz カウンターアプリ
+
 <img src="./doc/image/readme.png">
 
-A new Flutter project.
+<img src="./doc/image/fizzbuzz-flutter.gif">
 
-## Getting Started
+## 🎉 How to Play
 
-This project is a starting point for a Flutter application.
+右下の＋ボタンをクリックする
 
-A few resources to get you started if this is your first Flutter project:
+## ⚙️ How to Build
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter build web
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ❗️ How to Run
+
+```bash
+flutter run
+```
